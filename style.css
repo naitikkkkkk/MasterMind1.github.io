@@ -1,0 +1,900 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("eduford_img/banner.png");
+    min-height:100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.main{
+    width:1348px;
+    height:100px;
+    background-color:black;
+    color:whitesmoke;
+    
+}
+.a1{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 220px;
+
+ 
+
+}
+.a2{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 420px;
+
+ 
+
+}
+.a3{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 720px;
+
+ 
+
+}
+.a4{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 38px;
+    font-size:20px;
+    left: 920px;
+
+ 
+
+}
+.a5{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 1200px;
+}
+.a5::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a5:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a4::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a4:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a3::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a3:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a2::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a2:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a1::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a1:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+.img{
+    width:200px;
+    height:120px;
+    display:inline;
+    position: absolute;
+}
+.h1{
+    margin-top:14%;
+    margin-left:10%;
+    color:white;
+    font-size:60px;
+}
+.h5{
+    padding:5px;
+    margin-top:1%;
+    margin-left:14%;
+    font-size:15px;
+    color:#fff;
+}
+span{
+    margin-left:3%;
+}
+.hero-btn{
+    padding:15px;
+    margin-top:30px;
+    margin-left:14%;
+    background: none;
+    color: #fff;
+    border:solid 2px white;
+}
+
+.logo{
+    position: absolute;
+    left:70%;
+    bottom:20%;
+    border: solid 2px white;
+    border-radius:50%;
+    background-color: black;
+    width:20%;
+}
+.h1a{
+    margin-top:40px;
+    text-align: center;
+    font-size:50px;
+}
+.p{
+    background-color: rgb(218, 214, 214);
+    border: solid 2px black;
+    border-radius:5px;
+    text-align: center;
+    width:1000px;
+    margin-left:14%;
+}
+.h4{
+    margin-top:40px;
+    margin-left:500px;
+}
+.c1{
+    margin-top:50px;
+    background-color:#fff3f3;
+    
+    flex-basis:31%;
+    width:30%;
+    margin-left:20px;
+    height:200px;
+    box-shadow: black;
+    box-sizing:border-box;
+    margin-bottom:5%;
+    padding:20px 12px;
+    transition:0.5s;
+    border-radius:10px;
+    
+
+}
+.c1:hover{
+    box-shadow:0 0 20px 0px rgba(0, 0,0,0.2);
+}
+.h1b{
+    text-align: center;
+    margin-bottom:10px;
+}
+.div{
+    display: flex;
+}
+.layer{
+    background:transparent;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    transition:1s;
+}
+.layer:hover{
+
+    height:100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.layer h3{
+    width:100%;
+    color:#fff;
+    opacity: 0;
+    font-weight:500;
+    bottom:0;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    transition:0.5s;
+    font-size:30px;
+}
+.layer:hover h3{
+    opacity: 1;
+    bottom:49%;
+}
+.campus{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top:50px;
+}
+.row{
+    display: flex;
+    margin-top:5%;
+    justify-content: space-between;
+}
+.campus-col{
+    overflow: hidden;
+    flex-basis:32%;
+    border-radius:10px;
+    margin-bottom:30px;
+    position: relative;
+}
+.campus-col img{
+
+    width:100%;
+}
+.facility{
+    text-align: center;
+}
+.h41{
+    margin-top:40px;
+}
+.col img{
+    width:300px;
+    border-radius:10px;
+    margin-left:60px;
+    margin:50px;
+    box-sizing: border-box;
+    transition:1px;
+}
+.col:hover img{
+    box-shadow:0 0 20px 0px rgba(0, 0,0,0.2);
+}
+.col h4{
+    margin-top:-40px;
+    font-weight: 800;
+    font-size:20px;
+}
+.stu{
+    margin-left:15px;
+    flex-basis: 44%;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align: left;
+    background: #fff3f3;
+    padding:25px;
+    display: flex;
+    cursor: pointer;
+}
+.stu img{
+    border-radius:50%;
+    height:40px;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+.stu h3{
+    margin-top:5px;
+}
+.star{
+    color:#f44336;
+}
+.cta{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)),url("eduford_img/banner2.jpg");
+    margin:100px auto;
+    width:80%;
+    background-size: cover;
+    background-position:center;
+    border-radius:10px;
+    text-align: center;
+    padding: 140px 0;
+}
+
+.cta h1{
+    color:#fff;
+    font-size:48px;
+}
+
+.hero-btn1{
+    padding:15px;
+    margin-top:10px;
+    margin-left:6%;
+    color: crimson;
+    border:solid 2px black;
+    transition:2s ease;
+    transform: translateX(-50%);
+}
+.hero-btn1:hover{
+    background-image:linear-gradient(to left ,crimson,rgb(100,20,100));
+    color: white;
+}
+.footer{
+    margin-left:24%;
+    width:60%;
+    text-align: center;
+    transform: translateX(-50px);
+}
+.footer h2{
+    font-size:40px;
+}
+.footer p{
+    margin-top:20px;
+}
+footer h6{
+    margin-top:10px;
+}
+.social{
+    margin-top:10px;
+    font-size:20px;
+}
+.credit{
+    margin-top:10px;
+    color: cadetblue;
+}
+.imgimg{
+    display:flex;
+    
+}
+.help h1{
+    margin-top:60px;
+    text-align: center;
+    font-size:50px;
+}
+.img5{
+    border-radius:50%;
+    width:10%;
+    margin-left:40%;
+}
+.img6{
+    margin-left:20px;
+    width:20%;
+    border-radius:50%;
+}
+.btnbtn{
+    background-color: aqua;
+    color: brown;
+    font-size:20px;
+    padding:20px 50px;
+    margin-top:50px;
+    margin-left:38%;
+}
+.problem{
+    background-color:whitesmoke;
+    margin-top:60px;
+    width:80%;
+    margin-left:10%;
+    border-radius:10px;
+}
+.email{
+    margin-top:40px;
+    text-align: center;
+
+}
+.email h3{
+    font-size:30px;
+    margin-top:20px;
+}
+.email input{
+    padding:10px 150px;
+}
+
+.email p{
+    margin-top:20px;
+    width:50%;
+    margin-left:26%;
+}
+.email h5{
+    font-size:20px;
+    margin-top:40px;
+}
+.pr{
+    padding:50px;
+}
+.location{
+    width:80%;
+    margin:auto;
+    padding:80px 0;
+}
+.location iframe{
+    width:100%;
+}
+.location h1{
+    text-align: center;
+    margin:50px;
+    font-size:30px;
+}
+.contact{
+    width:80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis:48%;
+    margin-bottom:80px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom:40px;
+}
+.contact-col div .fa{
+    font-size:28px;
+    color:#f44336;
+    margin:10px;
+    margin-right:30px;
+}
+.contact-col input,.contact-col textarea{
+    width:100%;
+    padding:15px;
+    outline: none;
+    margin-bottom:17px;
+    border: 1px solid #ccc;
+}
+.red-btn{
+    padding: 15px 20px;
+    color: #f44336;
+    border: 2px solid #f44336;
+    transition:2s ease;
+}
+.red-btn:hover{
+    background-image: linear-gradient(to left ,#f44336,rgb(0,0,0.7));
+    color: #fff;
+    border:solid 2px black;
+}
+.course-col{
+    display:flex;
+    background-color: #b8acac;
+    margin-top:50px;
+    padding:50px;
+    margin-left:20px;
+    margin-right:20px;
+   
+    width:40%;
+    border-radius:5%;
+}
+
+.course-col img{
+    width:15%;
+    border-radius:50%;
+}
+.course-col p{
+    position: absolute;
+    margin-top:0%;
+    margin-left:0.2%;
+    bottom:-275px;  
+    font-weight: 900;
+
+}
+.course-col h3{
+    position: absolute;
+    left:20%;
+    bottom:-148px;
+}
+.star1{
+    margin-top:7%;
+    left: 13%;
+    position: absolute;
+    color:#f44336;
+}
+.l{
+    margin-left:10px;
+}
+.l3{
+    margin-left:55%;
+}
+.star12{
+    left:63%;
+    margin-top:7%;
+    position: absolute;
+    color:#f44336;
+}
+.btnbtnbtn{
+    margin-top:20px;
+    margin-left:41%;
+    padding:15px;
+    color: #f44336;
+    border: solid 2px crimson;
+    transition: 2.5s ease;
+}
+.btnbtnbtn:hover{
+    background-image: linear-gradient(to left ,crimson,#f44336);
+    color:white;
+}
+.enroll{
+    position: absolute;
+    margin-top:7%;
+    margin-left:20%;
+    padding:8px;
+    background: transparent;
+    color: black;
+    border: solid px black;
+    transition: 1.5s;
+    box-sizing: border-box;
+}
+.enroll:hover{
+    box-shadow: rgba(255, 0, 0, 0.7); 
+    background-color:rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(rgba(0,0,0));
+    color: #fff;
+}
+.enroll1{
+    position: absolute;
+    margin-top:7%;
+    margin-left:20%;
+    padding:8px;
+    background: transparent;
+    color: black;
+    border: solid px black;
+    transition: 1.5s;
+    box-sizing: border-box;
+}
+.enroll1:hover{
+    box-shadow: rgba(255, 0, 0, 0.7); 
+    background-color:rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(rgba(0,0,0));
+    color: #fff;
+}
+
+/* about page */
+*{
+    margin:0;
+    padding:0;
+}
+.sub-top{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("eduford_img/background.jpg");
+    min-height:10vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.main{
+    width:1348px;
+    height:100px;
+    background-color:black;
+    color:whitesmoke;
+    
+}
+.a1{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 220px;
+
+ 
+
+}
+.a2{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 420px;
+
+ 
+
+}
+.a3{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 720px;
+
+ 
+
+}
+.a4{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 38px;
+    font-size:20px;
+    left: 920px;
+
+ 
+
+}
+.a5{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    font-size:20px;
+    top: 38px;
+    left: 1200px;
+}
+.a5::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a5:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a4::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a4:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a3::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a3:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a2::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a2:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+
+.a1::after{
+    content:  ' ';
+    display:block;
+    width:0%;
+    height:1.5px;
+    background-color: crimson;
+    transition: 1.2s ;
+}
+
+.a1:hover:after{
+    content:  ' ';
+    display:block;
+    width:100%;
+    height:1.5px;
+    background-color: crimson;
+}
+.img{
+    width:200px;
+    height:120px;
+    display:inline;
+    position: absolute;
+}
+.h1{
+    margin-top:14%;
+    margin-left:10%;
+    margin-bottom:3%;
+    color:white;
+    font-size:60px;
+}
+.h52{
+    position: absolute;
+    padding:5px;
+    margin-top:1%;
+    margin-left:14%;
+    bottom:18%;
+    font-size:15px;
+    color:#fff;
+}
+span{
+    margin-left:3%;
+}
+.sub-hero-btn{
+    padding:15px;
+    margin-bottom:3%;
+    margin-top:30px;
+    margin-left:14%;
+    background: none;
+    color: lime;
+    border:solid 2px white;
+}
+
+.sub-logo{
+    position: absolute;
+    left:70%;
+    bottom:25%;
+    border: solid 2px white;
+    border-radius:50%;
+    background-color: black;
+    width:15%;
+}
+.about-us{
+    margin: auto;
+    width:80%;
+    padding-top:80px;
+    padding-bottom:50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding:30px 2px;
+}
+.about-col img{
+    width:100%;
+}
+.about-col h1{
+    padding:0;
+}
+.about-col p{
+    padding:15px 0 25px;
+}
+.about-btn{
+    padding:12px 10px;
+    border: 2px solid black;
+    color: crimson;
+    text-decoration: none;
+}
+/* Ship */
+.top2{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("eduford_img/certificate.jpg");
+    min-height:100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.blog-right{
+    flex-basis: 32%;
+
+}
+.blog-right h3{
+    margin-left:20px;
+    background: #f44336;
+    color: #fff;
+    padding:7px 0;
+    font-size:16px;
+    margin-bottom:20px;
+    text-align: center;
+}
+.blog-right div{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #555;
+    padding:4px;
+    box-sizing: border-box;
+
+}
+.blog-left{
+    border: 1px solid #ccc;
+    margin:50px 0;
+    padding:10px 20px;
+    margin-right:20px;
+}
+.blog-left h3{
+    text-align:center;
+}
+.comment-form input, .comment-form textarea{
+width:100%;
+padding: 10px;
+margin:15px 0;
+box-sizing: border-box;
+border: none;
+outline: none;
+
+background: #f0f0f0;
+}
+.comment-form button{
+    margin:10px 0;
+    padding:15px 10px;
+}
+
+
+/* COurse 2.html */
+
+.h3c{
+    position: absolute;
+    margin-bottom:-23%;
+}
+.l3c{
+    position: absolute;
+    margin-bottom:-23%;
+    margin-left:50%;
+}
+.pcs{
+    
+    margin-bottom:-23%;
+}
+.pcs2{
+    margin-bottom: -46%;
+}
